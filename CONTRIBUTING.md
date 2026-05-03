@@ -1,4 +1,4 @@
-# Contributing Guidelines
+# Contributing Guidelines [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Please ensure your pull request adheres to the following guidelines:
 

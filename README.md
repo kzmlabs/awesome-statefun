@@ -53,12 +53,21 @@ For context on the broader stateful-actor / durable-execution space:
 
 - [Stateful Functions: Polyglot Event-Driven Functions for Stateful Distributed Applications](https://www.ververica.com/blog/stateful-functions-internals-behind-the-scenes-of-stateful-serverless) — Ververica's introduction to the runtime internals.
 - [Apache StateFun release notes](https://nightlies.apache.org/flink/flink-statefun-docs-release-3.4/) — Latest upstream documentation.
+- [Stateful Functions 2.0 — An Event-Driven Database on Apache Flink](https://flink.apache.org/2020/04/07/release-statefun-2.0.0/) — Apache Flink blog post on the 2.0 release.
+- [Stateful Functions 3.0: Remote Functions Front-and-Center](https://flink.apache.org/2021/01/27/release-statefun-3.0.0/) — Apache Flink blog post on the 3.0 release.
+- [Stateful Functions 3.2.0 Release Announcement](https://flink.apache.org/2022/01/31/release-statefun-3.2.0/) — Apache Flink blog post on the 3.2 release.
+- [Lightweight Asynchronous Snapshots for Distributed Dataflows](https://arxiv.org/abs/1506.08603) — Carbone et al. The paper behind Flink's checkpointing, the foundation StateFun's exactly-once semantics rest on.
+- [Stateful Functions: Building Event-Driven Applications](https://www.youtube.com/results?search_query=Flink+Forward+Stateful+Functions) — Flink Forward conference talks on Stateful Functions (search results, multiple years).
+- [Distributed Architecture and Concepts](https://nightlies.apache.org/flink/flink-statefun-docs-release-3.4/docs/concepts/distributed_architecture/) — Apache deep-dive into how the runtime, dispatcher, and remote functions interact.
 
 ## Apache Flink resources
 
 - [awesome-flink](https://github.com/wuchong/awesome-flink) — The canonical curated list for Apache Flink projects, libraries, and tooling.
 - [Apache Flink documentation](https://nightlies.apache.org/flink/flink-docs-stable/) — The Flink runtime that StateFun runs on.
 - [Flink Kubernetes Operator](https://github.com/apache/flink-kubernetes-operator) — The Operator that provisions StateFun (and Flink) jobs on Kubernetes.
+- [Flink Forward conference](https://www.flink-forward.org/) — The annual Apache Flink conference. Several editions feature Stateful Functions talks.
+- [Apache Flink blog](https://flink.apache.org/blog/) — Release announcements, design notes, and ecosystem updates.
+- [Flink State Backends documentation](https://nightlies.apache.org/flink/flink-docs-stable/docs/ops/state/state_backends/) — How RocksDB and HashMap state backends work, including checkpoint storage to S3.
 
 ## Contributing
 

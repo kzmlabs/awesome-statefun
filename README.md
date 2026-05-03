@@ -2,7 +2,7 @@
 
 > A curated list of resources, libraries, runtimes, SDKs, and learning material for **Apache Stateful Functions** and stateful actor frameworks running on Apache Flink.
 
-Stateful Functions ([StateFun](https://github.com/apache/flink-statefun)) is a programming model for distributed actor-style systems on Apache Flink — durable per-key state, exactly-once messaging, polyglot remote functions, and Kubernetes-native deployment.
+Stateful Functions (StateFun) is a programming model for distributed actor-style systems on Apache Flink — durable per-key state, exactly-once messaging, polyglot remote functions, and Kubernetes-native deployment.
 
 ## Contents
 
@@ -13,7 +13,6 @@ Stateful Functions ([StateFun](https://github.com/apache/flink-statefun)) is a p
 - [Related actor frameworks](#related-actor-frameworks)
 - [Articles and talks](#articles-and-talks)
 - [Apache Flink resources](#apache-flink-resources)
-- [Contributing](#contributing)
 
 ## Runtimes
 
